@@ -1,7 +1,7 @@
 # Clase del 3 de marzo del 2016
 # Atractor de Lorenz 3D
 # https://en.wikipedia.org/wiki/Lorenz_system
-
+# Ejercicio de Edwin 
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
