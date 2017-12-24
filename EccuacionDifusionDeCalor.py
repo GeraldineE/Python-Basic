@@ -1,4 +1,4 @@
-#ECUACION DE DIFUSION EN UNA DIMESION 
+#ECUACION DE DIFUSION EN UNA DIMESION
 # Para una varilla de l=1mt, con n=100
 #hasta una temperatura Nt=300 
 import numpy as np 
@@ -18,13 +18,13 @@ alfa=0.05
 delta=0.01
 #nt=t/delta
 nt=300
-beta=(alfa*delta)/h**2
+beta=(alfa*delta)/(h**2)
 
 
 #ECUACION DE DIFUSION 
 print beta,alfa,delta,h
 
-for j in range(nt):	
+for j in range(nt):
 	
 	u0[0]=0
 	u0[n-1]=0
