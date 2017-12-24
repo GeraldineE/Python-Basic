@@ -19,6 +19,7 @@ delta=0.01
 #nt=t/delta
 nt=300
 beta=(alfa*delta)/(h**2)
+#arreglar beta
 
 
 #ECUACION DE DIFUSION 
