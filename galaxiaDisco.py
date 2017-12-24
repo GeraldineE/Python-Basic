@@ -3,6 +3,9 @@ import random
 import math 
 import matplotlib.pyplot as plt
 
+#Xn+1 = r Xn(1-Xn)
+#Funcion Logistica-Teoria del caos
+
 #Valores iniciales
 # n=11
 R=np.zeros((11,1))
