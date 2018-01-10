@@ -11,14 +11,14 @@ def cuantasEstrellasEnLasConstelaciones(nombreArchivo):
 
     #lee cada uno de los registros del archivo
     for line in file:
-        siglaConstel = line[7:10]   #extraer la sigla de la constelación
+        siglaConstel = line[7:10]   #extraer la sigla de la constelacion
         if siglaConstel == "":
             continue
         else:
-            if siglaConstel in catal:   #pregunta si la sigla ya está en el diccionario
+            if siglaConstel in catal:   #pregunta si la sigla ya esta en el diccionario
                 catal [ siglaConstel ] += 1
             else:
-                catal [ siglaConstel ] = 1 #si noestá la sigla, se crea y se inicializa en 1
+                catal [ siglaConstel ] = 1 #si no esta la sigla se crea y se inicializa en 1
 
     file.close()  
     return catal
