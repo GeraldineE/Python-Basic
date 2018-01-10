@@ -1,4 +1,4 @@
-#Diagrama HR(Hertzsprung-Russell) para relacionar las propiedades de las estrellas
+#Diagrama HR(Hertzsprung-Russell)para relacionar las propiedades de las estrellas
 #Temperatura-Magnitud Abs
 
 from numpy  import *
