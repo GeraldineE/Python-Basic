@@ -16,12 +16,14 @@ figure()
 plot(color_index,mag_abs,'o',color='red',markersize=0.5)
 plot(color_index[filtro],mag_abs[filtro],'o',color='yellow',markersize=1)
 
-savefig("diagramaHR.png")
-xlabel("$BV")
+
+savefig("diagramaHR1.png")
+title("DIAGRAMA HR")
+xlabel("INDICE DE COLOR")
 xlim(-0.5,3.0)
-ylabel("$Magnitud")
+ylabel("MAGNITUD")
 ylim(20,-10)
 
 
-
 print (mag_abs,color_index);
+matplotlib.pyplot.show()
